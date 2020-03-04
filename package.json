@@ -1,12 +1,29 @@
 {
   "name": "express-static-compress",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "High performance static assets cache for express that also supports compression and maxAge cache-control.",
+  "keywords": [
+    "express",
+    "cache",
+    "static",
+    "compression",
+    "deflate",
+    "gzip",
+    "cacheControl",
+    "cache-control",
+    "maxAge",
+    "max-age",
+    "performance",
+    "caching"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/swent/express-static-compress"
   },
   "author": "swent",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "republish": "npm publish --access public"
+  }
 }
