@@ -1,6 +1,6 @@
 {
   "name": "express-static-compress",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "High performance static assets cache for express that also supports compression and maxAge cache-control.",
   "keywords": [
     "express",
@@ -25,5 +25,8 @@
   "license": "MIT",
   "scripts": {
     "republish": "npm publish --access public"
+  },
+  "dependencies": {
+    "pako": "^1.0.6"
   }
 }
